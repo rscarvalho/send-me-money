@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
+        <li><IndexLink to="/">Home</IndexLink></li>
         <li><Link to="/about">About</Link></li>
         <li><IndexLink to="/form">Form</IndexLink></li>
       </ul>
