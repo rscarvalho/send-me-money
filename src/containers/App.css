@@ -9,8 +9,22 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 5px;
+  max-width: 200px;
+}
+
+.App-header nav ul li a {
   color: white;
 }
 
