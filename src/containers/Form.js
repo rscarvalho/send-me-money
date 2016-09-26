@@ -1,3 +1,5 @@
 import FormPage from '../components/FormPage';
+import BaseCurrencyStep from '../components/form/BaseCurrencyStep';
 
-export default FormPage;
+export const Form = FormPage;
+export const Step1 = BaseCurrencyStep;

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link, IndexLink } from 'react-router';
-import logo from '../logo.svg';
 import './App.css';
 
 function Navigation() {
@@ -9,7 +8,7 @@ function Navigation() {
       <ul>
         <li><IndexLink to="/">Home</IndexLink></li>
         <li><Link to="/about">About</Link></li>
-        <li><IndexLink to="/form">Form</IndexLink></li>
+        <li><IndexLink to="/form">Send Money</IndexLink></li>
       </ul>
     </nav>
   );
@@ -28,8 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h1>Send Me Money!</h1>
           <Navigation />
         </div>
         {children}
